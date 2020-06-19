@@ -27,11 +27,11 @@ class App extends React.Component {
             <h1 onMouseEnter={this.handleTextEnter} onMouseLeave={this.handleTextLeave}>{this.state.name}</h1>
 
             <div>
-                <a href={'https://twitter.com/NamanManchanda2'} target="_blank"><img src="https://img.icons8.com/cotton/64/000000/twitter.png"/></a>
-                <a href={'https://www.linkedin.com/in/naman-manchanda-1b0948144/'} target="_blank"><img src="https://img.icons8.com/dusk/64/000000/linkedin.png"/></a>
-                <a href={'https://www.instagram.com/namanmanchanda1/'} target="_blank"><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png"/></a>
-                <a href={'https://github.com/namanmanchanda09'} target="_blank"><img src="https://img.icons8.com/nolan/64/github.png"/></a>
-                <a href={'http://roads-country.com'} target="_blank"><img src="https://img.icons8.com/color/64/000000/beach.png"/></a>
+                <a href={'https://twitter.com/NamanManchanda2'}><img src="https://img.icons8.com/cotton/64/000000/twitter.png" alt={'Twitter'}/></a>
+                <a href={'https://www.linkedin.com/in/naman-manchanda-1b0948144/'}><img src="https://img.icons8.com/dusk/64/000000/linkedin.png" alt={'Linkedin'}/></a>
+                <a href={'https://www.instagram.com/namanmanchanda1/'}><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png" alt={'Instagram'}/></a>
+                <a href={'https://github.com/namanmanchanda09'}><img src="https://img.icons8.com/nolan/64/github.png" alt={'Github'}/></a>
+                <a href={'http://roads-country.com'}><img src="https://img.icons8.com/color/64/000000/beach.png" alt={'Blog'}/></a>
 
 
 
