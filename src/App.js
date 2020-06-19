@@ -22,30 +22,29 @@ class App extends React.Component {
 
   render(){
     return (
-        <div className="App App-header">
-            <h1 onMouseEnter={this.handleSalutationEnter} onMouseLeave={this.handleSalutationLeave}>{this.state.salutation}</h1>
-            <h1 onMouseEnter={this.handleTextEnter} onMouseLeave={this.handleTextLeave}>{this.state.name}</h1>
-
-            <div>
-                <a href={'https://twitter.com/NamanManchanda2'}><img src="https://img.icons8.com/cotton/64/000000/twitter.png" alt={'Twitter'}/></a>
-                <a href={'https://www.linkedin.com/in/naman-manchanda-1b0948144/'}><img src="https://img.icons8.com/dusk/64/000000/linkedin.png" alt={'Linkedin'}/></a>
-                <a href={'https://www.instagram.com/namanmanchanda1/'}><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png" alt={'Instagram'}/></a>
-                <a href={'https://github.com/namanmanchanda09'}><img src="https://img.icons8.com/nolan/64/github.png" alt={'Github'}/></a>
-                <a href={'http://roads-country.com'}><img src="https://img.icons8.com/color/64/000000/beach.png" alt={'Blog'}/></a>
-
-
-
-
-
+        <div className="App">
+            <div className="App-header">
+                <h1 onMouseEnter={this.handleSalutationEnter} onMouseLeave={this.handleSalutationLeave}>{this.state.salutation}</h1>
+                <h1 onMouseEnter={this.handleTextEnter} onMouseLeave={this.handleTextLeave}>{this.state.name}</h1>
+                <div>
+                    <a href={'http://namanmanchanda.netlify.com/'}><img src="https://img.icons8.com/bubbles/64/000000/about.png" alt={'About'}/></a>
+                    <a href={'https://twitter.com/NamanManchanda2'}><img src="https://img.icons8.com/cotton/64/000000/twitter.png" alt={'Twitter'}/></a>
+                    <a href={'https://www.linkedin.com/in/naman-manchanda-1b0948144/'}><img src="https://img.icons8.com/dusk/64/000000/linkedin.png" alt={'Linkedin'}/></a>
+                    <a href={'https://github.com/namanmanchanda09'}><img src="https://img.icons8.com/nolan/64/github.png" alt={'Github'}/></a>
+                    <a href={'https://www.instagram.com/namanmanchanda1/'}><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png" alt={'Instagram'}/></a>
+                    <a href={'http://roads-country.com'}><img src="https://img.icons8.com/color/64/000000/beach.png" alt={'Blog'}/></a>
+                </div>
 
             </div>
-
         </div>
     );
   }
 }
 
 export default App;
+
+
+
 
 
 
