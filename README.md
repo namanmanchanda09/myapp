@@ -1,5 +1,5 @@
 ## My Profile.
 
-[Naman Manchanda](https://nishumanchanda.netlify.app/)
+## [Naman Manchanda](https://nishumanchanda.netlify.app/)
 
 
