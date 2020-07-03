@@ -33,6 +33,9 @@ class App extends React.Component {
                     <a href={'https://www.instagram.com/namanmanchanda1/'}><img src="https://img.icons8.com/dusk/64/000000/instagram-new.png" alt={'Instagram'}/></a>
                     <a href={'http://roads-country.com'}><img src="https://img.icons8.com/color/64/000000/beach.png" alt={'Blog'}/></a>
                 </div>
+                <br/>
+                <em>building <span style={{color:'yellow'}}>Limen</span> at <a href={'https://github.com/LimenLabs'}>@LimenLabs</a></em>
+
                 <br/><br/><br/>
                 <div>
                     <h3>Anything Urgent?</h3>
