@@ -19,7 +19,14 @@ class App extends React.Component {
   handleTextEnter = (event) => {
     // eslint-disable-next-line jsx-a11y/accessible-emoji
     this.setState({
-      name: <span style={{ color: '#87CEFA' }}>नाम तो सुना ही होगा। 😜</span>,
+      name: (
+        <span style={{ color: '#87CEFA' }}>
+          नाम तो सुना ही होगा।
+          <span role="img" aria-label="face">
+            😜
+          </span>
+        </span>
+      ),
     });
   };
   handleTextLeave = (event) => {
