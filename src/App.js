@@ -55,7 +55,9 @@ class App extends React.Component {
           >
             {this.state.name}
           </h1>
+          <a href={'https://namanmanchanda.substack.com/p/from-manager-to-a-leader'}>Subscribe to my Newsletter</a>
           <div>
+            <br />
             <a href={'http://namanmanchanda.netlify.com/'}>
               <img
                 src="https://img.icons8.com/bubbles/64/000000/about.png"
