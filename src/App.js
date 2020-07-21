@@ -55,7 +55,7 @@ class App extends React.Component {
           >
             {this.state.name}
           </h1>
-          <a href={'https://namanmanchanda.substack.com/p/from-manager-to-a-leader'}>Subscribe to my Newsletter</a>
+          <a href={'https://namanmanchanda.substack.com'}>Subscribe to my Newsletter</a>
           <div>
             <br />
             <a href={'http://namanmanchanda.netlify.com/'}>
