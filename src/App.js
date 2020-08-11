@@ -76,12 +76,12 @@ class App extends React.Component {
                 alt={'Github'}
               />
             </a>
-            <a href={'https://www.instagram.com/namanmanchanda1/'}>
+            {/* <a href={'https://www.instagram.com/namanmanchanda1/'}>
               <img
                 src="https://img.icons8.com/dusk/64/000000/instagram-new.png"
                 alt={'Instagram'}
               />
-            </a>
+            </a> */}
             <a href={'http://roads-country.com'}>
               <img
                 src="https://img.icons8.com/color/64/000000/beach.png"
