@@ -44,7 +44,8 @@ class App extends React.Component {
       <div>
         Hey! Well, ain't my Web D skills dope? <br></br>
         The new website is shifted to <a href={'https://namanmanchanda09.github.io/'}>here</a>.<br></br>
-        Follow me on <a href={'https://twitter.com/NamanManchanda2'}>twitter</a>.
+        Follow me on <a href={'https://twitter.com/NamanManchanda2'}>twitter</a>.<br></br>
+        Check out my Data Science blog <a href={'https://namanmanchanda09.github.io/mindAI/'}>here</a>.
       </div>
     )
     // return (
