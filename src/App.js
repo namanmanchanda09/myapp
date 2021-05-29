@@ -2,47 +2,49 @@ import React from 'react';
 import './App.css';
 
 class App extends React.Component {
-  state = {
-    salutation: 'Hola!',
-    name: (
-      <span>
-        This is <span style={{ color: 'orange' }}>Naman Manchanda</span>.
-      </span>
-    ),
-  };
-  handleSalutationEnter = (event) => {
-    this.setState({ salutation: 'नमस्कार।' });
-  };
-  handleSalutationLeave = (event) => {
-    this.setState({ salutation: 'Hola!' });
-  };
-  handleTextEnter = (event) => {
-    // eslint-disable-next-line jsx-a11y/accessible-emoji
-    this.setState({
-      name: (
-        <span style={{ color: '#87CEFA' }}>
-          नाम तो सुना ही होगा।
-          <span role="img" aria-label="face">
-            😜
-          </span>
-        </span>
-      ),
-    });
-  };
-  handleTextLeave = (event) => {
-    this.setState({
-      name: (
-        <span>
-          This is <span style={{ color: 'orange' }}>Naman Manchanda</span>.
-        </span>
-      ),
-    });
-  };
+  // state = {
+  //   salutation: 'Hola!',
+  //   name: (
+  //     <span>
+  //       This is <span style={{ color: 'orange' }}>Naman Manchanda</span>.
+  //     </span>
+  //   ),
+  // };
+  // handleSalutationEnter = (event) => {
+  //   this.setState({ salutation: 'नमस्कार।' });
+  // };
+  // handleSalutationLeave = (event) => {
+  //   this.setState({ salutation: 'Hola!' });
+  // };
+  // handleTextEnter = (event) => {
+  //   // eslint-disable-next-line jsx-a11y/accessible-emoji
+  //   this.setState({
+  //     name: (
+  //       <span style={{ color: '#87CEFA' }}>
+  //         नाम तो सुना ही होगा।
+  //         <span role="img" aria-label="face">
+  //           😜
+  //         </span>
+  //       </span>
+  //     ),
+  //   });
+  // };
+  // handleTextLeave = (event) => {
+  //   this.setState({
+  //     name: (
+  //       <span>
+  //         This is <span style={{ color: 'orange' }}>Naman Manchanda</span>.
+  //       </span>
+  //     ),
+  //   });
+  // };
 
   render() {
     return(
       <div>
+        Hey! Well, ain't my Web D skills dope? 
         The new website is shifted to <a href={'https://namanmanchanda09.github.io/'}>here</a>.
+        Follow me on <a href={'https://twitter.com/NamanManchanda2'}>twitter</a>.
       </div>
     )
     // return (
