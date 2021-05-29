@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css';
 
 class App extends React.Component {
   // state = {
@@ -42,8 +42,8 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        Hey! Well, ain't my Web D skills dope? 
-        The new website is shifted to <a href={'https://namanmanchanda09.github.io/'}>here</a>.
+        Hey! Well, ain't my Web D skills dope? <br></br>
+        The new website is shifted to <a href={'https://namanmanchanda09.github.io/'}>here</a>.<br></br>
         Follow me on <a href={'https://twitter.com/NamanManchanda2'}>twitter</a>.
       </div>
     )
